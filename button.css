@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: =0;
+    
+}
+
+header 
+{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(pic1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+        
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+    
+}
+
+.main-nav li
+{
+    display: inline-block;
+    
+}
+
+
+.main-nav li
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px; 
+} 
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+    padding: 10px 15px; 
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+h1
+{
+    font-family: sans-serif;
+    color: rgba(255,255,255,1);
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 200px;
+    
+    
+}
+.choose_file{
+    position:absolute;
+    display:inline-block;    
+	border-radius:8px;
+    border:#ebebeb solid 1px;
+    width:250px; 
+    padding: 4px 6px 4px 8px;
+    font: normal 14px Myriad Pro, Verdana, Geneva, sans-serif;
+    color: #7f7f7f;
+    margin-top: 25px;
+	background:white
+}
+.choose_file input[type="file"]{
+    -webkit-appearance:none; 
+    position:absolute;
+    top:0; left:0;
+    opacity:0; 
+}
+
+
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.here
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
